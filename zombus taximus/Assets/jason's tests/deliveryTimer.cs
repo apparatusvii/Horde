@@ -34,7 +34,7 @@ public class deliveryTimer : MonoBehaviour
         {
             currentTime -= 1 * Time.deltaTime;
         }
-        else currentTime = startTime;
+       // else currentTime = startTime;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -46,16 +46,17 @@ public class deliveryTimer : MonoBehaviour
 
         if (other.gameObject.CompareTag("destination"))//when you reach the destination, the timer stops counting down
         {
-            timeIsTicking = false;
+            //timeIsTicking = false;
             deliveryCounted = true;
             print("delivered");
             print("AAAAAAAAAAAAAAAAAAAAAAAA");
             StartCoroutine(stopTheCount());
             score = score + 100 * currentTime;
+            currentTime = currentTime + 15;
         }
     }
 
-    IEnumerator stopTheCount()
+    IEnumerator stopTheCount()//stops score from being calculated every frame
     {
         yield return new WaitForEndOfFrame();
         deliveryCounted = false;
