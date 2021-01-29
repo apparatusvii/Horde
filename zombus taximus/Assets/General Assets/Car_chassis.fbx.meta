@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: ab1e83ff57d25e044bda5121a15592ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Rims
     second: {fileID: 2100000, guid: 8e600949431572a4888f8dc0529191c0, type: 2}
   - first:
