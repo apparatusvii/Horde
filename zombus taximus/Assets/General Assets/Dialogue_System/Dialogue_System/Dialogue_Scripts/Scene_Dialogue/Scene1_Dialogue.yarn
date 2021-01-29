@@ -1,0 +1,9 @@
+﻿title: Scene1_Dialogue
+tags:
+---
+Narrator: A Game By Moises Oliveri
+Narrator: A Story Full Of Tragedy...Mystery...<wiggle>ACTION</wiggle>!
+Narrator: Presenting:
+Narrator: NIGHT SHIFT
+<<LoadLevel LevelLoader>>
+===
