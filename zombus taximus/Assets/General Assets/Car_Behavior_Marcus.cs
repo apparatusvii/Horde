@@ -23,8 +23,8 @@ public class Car_Behavior_Marcus : MonoBehaviour
 
     void start()
     {
-      Tire_Smoke_1.Stop();
-      Tire_Smoke_2.Stop();
+      Tire_Smoke_1.Pause();
+      Tire_Smoke_2.Pause();
     }
 
     void wheelturn()
