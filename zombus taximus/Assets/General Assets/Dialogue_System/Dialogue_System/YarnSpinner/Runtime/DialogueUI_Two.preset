@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DialogueUI_Two
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 745c9a3a5e533e94f8cebc207c4fd616, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dialogueContainer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: textSpeed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: optionButtons.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+    value: UnityEngine.GameObject, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+    value: SetActive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+    value: UnityEngine.Object, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+    value: UnityEngine.GameObject, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+    value: SetActive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+    value: UnityEngine.Object, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+    value: UnityEngine.GameObject, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+    value: SetActive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+    value: UnityEngine.Object, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineFinishDisplaying.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+    value: TMPro.TMP_Text, Unity.TextMeshPro
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+    value: set_text
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+    value: UnityEngine.Object, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+    value: UnityEngine.GameObject, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+    value: SetActive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+    value: UnityEngine.Object, UnityEngine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onLineEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onOptionsStart.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onOptionsEnd.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onCommand.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: onStart
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

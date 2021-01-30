@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 6469b5dc4818f4d40a42bc2be11390bd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Jacob-YBot-0
+  - Jacob-YBot-1
+  - Jacob-YBot-2
+  - Jacob-YBot-3
+  - Jacob-YBot-4
+  - Jacob-XBot-5
+  - Jacob-XBot-6
+  - Jacob-XBot-7
+  - Jacob-XBot-8
+  - Jacob-XBot-9
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

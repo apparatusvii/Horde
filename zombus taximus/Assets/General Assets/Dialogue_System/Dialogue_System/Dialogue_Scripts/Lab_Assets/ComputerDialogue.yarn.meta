@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f3419936e297bd2488bd2786b2109934
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - ComputerDialogue-Computer-0
+  - ComputerDialogue-Computer-1
+  - ComputerDialogue-Computer-2
+  - ComputerDialogue-Off-3
+  - ComputerDialogue-Look-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: f3419936e297bd2488bd2786b2109934, type: 3}
+  localizations: []
