@@ -19,15 +19,21 @@ public class zombieSpawner : MonoBehaviour
     {
         if (deliveryScript.deliveryCounted == true)
         {
-            GetRandoms();            
+            StartCoroutine(WaitJustOneFramePls());   
         }
     }
 
     void GetRandoms()
-    {
+    {               
         GameObject newDestination = destinations[Random.Range(0, destinations.Length)];
         GameObject newZombie = zombies[Random.Range(0, zombies.Length)];
         newDestination.SetActive(true);
-        newZombie.SetActive(true);
+        newZombie.SetActive(true); 
+    }
+
+    IEnumerator WaitJustOneFramePls()
+    {
+        yield return new WaitForEndOfFrame();
+        GetRandoms();
     }
 }
