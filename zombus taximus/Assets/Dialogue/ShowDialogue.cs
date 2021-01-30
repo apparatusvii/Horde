@@ -6,6 +6,7 @@ using Unity;
 public class ShowDialogue : MonoBehaviour
 {
     public GameObject dialogueDisplay;
+    public Transform dialogueDisplayParent;
     public GameObject player;
     public LayerMask playerLayer;
     public Transform centerPoint;
@@ -41,6 +42,7 @@ public class ShowDialogue : MonoBehaviour
         if(inRange)
         {
             dialogueDisplay.SetActive(true);
+            dialogueDisplay.transform.position = dialogueDisplayParent.transform.position;
             StartCoroutine(dialogue.Type());
         }
         else 
