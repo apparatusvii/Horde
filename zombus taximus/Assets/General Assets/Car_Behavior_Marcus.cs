@@ -9,6 +9,9 @@ public class Car_Behavior_Marcus : MonoBehaviour
     public GameObject wheel_3;
     public GameObject wheel_4;
     public GameObject Car_Body;
+    public ParticleSystem Tire_Smoke_1;
+    public ParticleSystem Tire_Smoke_2;
+
     public Rigidbody rb;
     private float Speed;
     public float Acceleration;
@@ -17,12 +20,20 @@ public class Car_Behavior_Marcus : MonoBehaviour
     public float Boost = 20;
     private float DriftBoost;
     private float tTime = 20;
+
+    void start()
+    {
+      Tire_Smoke_1.Stop();
+      Tire_Smoke_2.Stop();
+    }
+
     void wheelturn()
     {
       wheel_1.transform.Rotate(-Speed,0,0);
       wheel_2.transform.Rotate(-Speed,0,0);
       wheel_3.transform.Rotate(-Speed,0,0);
       wheel_4.transform.Rotate(-Speed,0,0);
+
 
     }
     void turnL()
@@ -57,6 +68,31 @@ public class Car_Behavior_Marcus : MonoBehaviour
       {
         turnL();
       }
+
+      void activatesmoke()
+      {
+
+        Tire_Smoke_1.Play();
+        Tire_Smoke_2.Play();
+      }
+
+      void deactivatesmoke()
+      {
+        Tire_Smoke_1.Stop();
+        Tire_Smoke_2.Stop();
+      }
+
+      if( Input.GetKey("w") || Input.GetKey("d") || Input.GetKey("a"))
+      {
+        activatesmoke();
+        Debug.Log("smoke on");
+      }
+      else if( !Input.GetKey("w") || !Input.GetKey("d") || !Input.GetKey("a"))
+      {
+        deactivatesmoke();
+          Debug.Log("smoke off");
+      }
+
 
       if (Input.GetKey("w"))  {
     Speed = Acceleration * Time.deltaTime * tTime;
