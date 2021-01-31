@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Mac/MainMenu.unity
     guid: f011c14eaa292ab418eefed34d7012f9
   - enabled: 1
-    path: Assets/General Assets/Scenes/Game_Scene.unity
+    path: Assets/General Assets/Scenes/Game_Scene GM.unity
     guid: 165d2168c4ab3e642856929dd93b4e63
   - enabled: 1
     path: Assets/Mac/Credit.unity

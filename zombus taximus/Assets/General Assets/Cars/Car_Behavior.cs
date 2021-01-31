@@ -17,6 +17,16 @@ public class Car_Behavior : MonoBehaviour
     public float Boost = 20;
     private float DriftBoost;
     private float tTime = 20;
+    public AudioSource Car1;
+    public AudioSource Car2;
+    public AudioSource Car3;
+    public ParticleSystem Tire_Smoke_1;
+    public ParticleSystem Tire_Smoke_2;
+
+    void start()
+    {
+      Car1.Play();
+    }
 
     void turnL()
     {
@@ -33,10 +43,33 @@ public class Car_Behavior : MonoBehaviour
     {
       Speed = 0;
     }
+    
+    void activatesmoke()
+    {
 
+      Tire_Smoke_1.Play();
+      Tire_Smoke_2.Play();
+    }
+
+    void deactivatesmoke()
+    {
+      Tire_Smoke_1.Stop();
+      Tire_Smoke_2.Stop();
+    }
     void FixedUpdate()
 
     {
+      //Car Sounds
+      if (Input.GetKeyDown("d") || Input.GetKeyDown("a"))
+      {
+        Car3.Play();
+      }
+
+      if (Input.GetKeyDown("s"))
+      {
+          Car2.Play();
+      }
+
       if(Input.GetKey("s"))
       {
         Brake();
@@ -56,7 +89,7 @@ public class Car_Behavior : MonoBehaviour
     rb.AddForce(transform.forward * Speed);
     }
     else
-  
+
 
     if (Input.GetKey("left shift"))
     {
@@ -66,6 +99,16 @@ public class Car_Behavior : MonoBehaviour
     else
     {
       DriftBoost = 0;
+    }
+    if( Input.GetKey("w") || Input.GetKey("d") || Input.GetKey("a"))
+    {
+      activatesmoke();
+      Debug.Log("smoke on");
+    }
+    else if( !Input.GetKey("w") || !Input.GetKey("d") || !Input.GetKey("a"))
+    {
+      deactivatesmoke();
+        Debug.Log("smoke off");
     }
   }
 
@@ -82,7 +125,7 @@ public class Car_Behavior : MonoBehaviour
      wheel_2.transform.Rotate(0,0,Speed);
      wheel_3.transform.Rotate(0,0,Speed);
      wheel_4.transform.Rotate(0,0,Speed);
-
+     Car1.Play();
    }
 
 
