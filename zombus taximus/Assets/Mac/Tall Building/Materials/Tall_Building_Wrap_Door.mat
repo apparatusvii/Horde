@@ -152,6 +152,7 @@ Material:
     - _OpaqueCullMode: 2
     - _Parallax: 0.02
     - _RenderQueueType: 1
+    - _ShadowMatteFilter: 4.0357e-41
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -183,6 +184,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_17566ee57a45417a8ee13d7798a5f868: {r: 0.24334282, g: 0.32727268, b: 0.5943396, a: 0}
+    - Color_a297d63037774e45bf8527c181f2177c: {r: 0, g: 0, b: 0, a: 0}
+    - Color_fb7131acae074affa2c2322d5efb3b15: {r: 0.19736555, g: 0.7578455, b: 0.7924528, a: 0}
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

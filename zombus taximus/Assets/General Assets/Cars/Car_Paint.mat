@@ -14,7 +14,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
-  stringTagMap: {}
+  stringTagMap:
+    MotionVector: User
   disabledShaderPasses:
   - DistortionVectors
   - MOTIONVECTORS
@@ -25,6 +26,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_93c28ee0b73f46ac957e41f165cc6ad7:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -122,6 +127,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_458fefcc6dd34bbab8883a20e800727b: 0
+    - Vector1_4800c6c8774a4fe18059c978ac4822fa: 1.27
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -206,7 +213,9 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _Smoothness: 0.87
+    - _RenderQueueType: 1
+    - _ShadowMatteFilter: 4.0357e-41
+    - _Smoothness: 0.891
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -248,6 +257,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
+    - Color_17566ee57a45417a8ee13d7798a5f868: {r: 0.764151, g: 0.2704435, b: 0.25519755, a: 0}
     - _BaseColor: {r: 0.18867922, g: 0.055891763, b: 0.055891763, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.18867919, g: 0.05589173, b: 0.05589173, a: 1}
@@ -264,6 +274,7 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
+    - _WorldSpaceLightPos0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4123893930549018116
 MonoBehaviour:
