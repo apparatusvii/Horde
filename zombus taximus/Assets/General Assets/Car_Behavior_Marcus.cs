@@ -20,11 +20,13 @@ public class Car_Behavior_Marcus : MonoBehaviour
     public float Boost = 20;
     private float DriftBoost;
     private float tTime = 20;
+    public AudioSource Car1;
+    public AudioSource Car2;
+    public AudioSource Car3;
 
     void start()
     {
-      Tire_Smoke_1.Pause();
-      Tire_Smoke_2.Pause();
+      Car1.Play();
     }
 
     void wheelturn()
@@ -33,31 +35,50 @@ public class Car_Behavior_Marcus : MonoBehaviour
       wheel_2.transform.Rotate(-Speed,0,0);
       wheel_3.transform.Rotate(-Speed,0,0);
       wheel_4.transform.Rotate(-Speed,0,0);
-
+      Car1.Play();
 
     }
     void turnL()
     {
     rb.transform.Rotate(0,5 * -1,0);
     rb.AddForce(0,-20,0, ForceMode.Impulse);
+
     }
 
     void turnR()
     {
       rb.transform.Rotate(0,5,0);
       rb.AddForce(0,-20,0, ForceMode.Impulse);
+
     }
     void Brake()
     {
       Speed = 0;
+      Car1.Pause();
+
     }
 
     void FixedUpdate()
 
     {
+        //Car Sounds
+        if (Input.GetKeyDown("d") || Input.GetKeyDown("a"))
+        {
+          Car3.Play();
+        }
+
+        if (Input.GetKeyDown("s"))
+        {
+            Car2.Play();
+        }
+
+
+
+      //Car Controls
       if(Input.GetKey("s"))
       {
         Brake();
+
       }
       if(Input.GetKey("d"))
       {
@@ -126,24 +147,23 @@ public class Car_Behavior_Marcus : MonoBehaviour
    }
 
 
-    if(Input.GetKey("left shift"))
+  //  if(Input.GetKey("left shift"))
     {
       //driftingfunction();
     }
 
-// void driftingfunction()
-//{
-//  Debug.Log("Boing");
-//  rb.AddForce(0,JumpStrength,0,  ForceMode.Impulse);
-//  JumpStrength = JumpForce * Time.deltaTime;
+//void driftingfunction()
+{
+//Debug.Log("Boing");
+// rb.AddForce(0,JumpStrength,0,  ForceMode.Impulse);
+ //JumpStrength = JumpForce * Time.deltaTime;
 //  rb.transform.Rotate (0,3,0);
 //  wheel_1.transform.Rotate(0,0,Speed);
 //  wheel_2.transform.Rotate(0,0,Speed);
 //  wheel_3.transform.Rotate(0,0,Speed);
-//  wheel_4.transform.Rotate(0,0,Speed);
-
-//  rb.AddForce(transform.forward * -1 * DriftBoost);
-//}
+// wheel_4.transform.Rotate(0,0,Speed);
+  //rb.AddForce(transform.forward * -1 * DriftBoost);
+}
 
 
     }

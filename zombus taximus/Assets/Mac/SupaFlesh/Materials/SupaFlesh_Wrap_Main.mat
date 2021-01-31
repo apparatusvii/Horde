@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SupaFlesh_Wrap_Main
-  m_Shader: {fileID: -6465566751694194690, guid: 59371bc5f85d74340ad79e0e595dd0e9, type: 3}
+  m_Shader: {fileID: 4800000, guid: c4edd00ff2db5b24391a4fcb1762e459, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,9 +32,6 @@ Material:
   disabledShaderPasses:
   - DistortionVectors
   - MOTIONVECTORS
-  - TransparentDepthPrepass
-  - TransparentDepthPostpass
-  - TransparentBackface
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -104,6 +101,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_458fefcc6dd34bbab8883a20e800727b: 0
+    - Vector1_4800c6c8774a4fe18059c978ac4822fa: 0
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.5
