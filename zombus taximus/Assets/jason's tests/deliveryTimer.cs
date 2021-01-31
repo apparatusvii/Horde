@@ -8,8 +8,12 @@ public class deliveryTimer : MonoBehaviour
     public Text timerText, scoreTxt;
     public float startTime, currentTime;
     public bool timeIsTicking, deliveryCounted, pickedUp;
+<<<<<<< HEAD
+    public float score, customerCount;
+=======
     public float score;
     public float resettime = 7;
+>>>>>>> 5fa03e4db10b52eb8362b82aca7c9248d4f38d98
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +23,7 @@ public class deliveryTimer : MonoBehaviour
         deliveryCounted = false;
         pickedUp = false;
         score = 0;
+        customerCount = 0;
     }
 
     // Update is called once per frame
@@ -47,11 +52,17 @@ public class deliveryTimer : MonoBehaviour
             pickedUp = true;
         }
 
-        if (other.gameObject.CompareTag("destination"))//when you reach the destination, the delivery gets counted
+        if (other.gameObject.CompareTag("destination")&&pickedUp==true)//when you reach the destination, the delivery gets counted
         {
             pickedUp = false;
             deliveryCounted = true;
+<<<<<<< HEAD
+            customerCount++;     ////////////////////if you want to record how many customers here ya go 
+
+            print("delivered");            
+=======
             print("delivered");
+>>>>>>> 5fa03e4db10b52eb8362b82aca7c9248d4f38d98
             StartCoroutine(stopTheCount());
             score = score + 10 * currentTime;
             currentTime = currentTime + resettime;
