@@ -245,7 +245,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.188843, y: 42}
+  m_AnchoredPosition: {x: -19.188843, y: 13}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321165236
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2126643609}
+      - m_Target: {fileID: 2126643615}
         m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: playGame
         m_Mode: 1
@@ -420,7 +420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.188843, y: -11}
+  m_AnchoredPosition: {x: -19.188843, y: -40}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439589075
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2126643609}
+      - m_Target: {fileID: 2126643615}
         m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: Credit
         m_Mode: 1
@@ -624,6 +624,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &569897449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6500126667034038611, guid: 24af1dcb290354545832ebffbc67027c, type: 3}
+  m_PrefabInstance: {fileID: 6500126666207377853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &569897450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569897449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e02ac2d029f974c92c1039e9497724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &589127389 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 2645620621636343270, guid: 1c9ae53632ec6224082fef64b20884b3, type: 3}
@@ -1010,7 +1027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.188843, y: -68}
+  m_AnchoredPosition: {x: -19.188843, y: -97}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1528219092
@@ -1057,7 +1074,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2126643609}
+      - m_Target: {fileID: 2126643615}
         m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: exitGame
         m_Mode: 1
@@ -1240,7 +1257,7 @@ GameObject:
   - component: {fileID: 2126643611}
   - component: {fileID: 2126643610}
   - component: {fileID: 2126643609}
-  - component: {fileID: 2126643614}
+  - component: {fileID: 2126643615}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -1257,11 +1274,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2126643608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 351a4183014fec941bac947f468a6c71, type: 3}
+  m_Script: {fileID: 11500000, guid: ba7471d1a887b934d86933bf4f828c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 2126643608}
-  optionsMenu: {fileID: 2126643608}
 --- !u!114 &2126643610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,7 +1361,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &2126643614
+--- !u!114 &2126643615
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1355,11 +1370,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2126643608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ab79c9a3f9e33d499d07c02424815e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 314e31124b4831b498be99d2db6d013f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicVolumeSlider: {fileID: 0}
-  effectsVolumeSlider: {fileID: 0}
+  mainMenu: {fileID: 0}
+  optionsMenu: {fileID: 0}
+  highscore: {fileID: 0}
+  customer: {fileID: 0}
 --- !u!1001 &25626902960701563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1643,7 +1660,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioSource2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6500126667034038604, guid: 24af1dcb290354545832ebffbc67027c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 24af1dcb290354545832ebffbc67027c, type: 3}
 --- !u!1001 &7287168648110346680
 PrefabInstance:

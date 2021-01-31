@@ -29193,20 +29193,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 4478926762679543307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6deaf6baa4781b24db4dcf9dcd3d2228, type: 3}
+  m_Script: {fileID: 11500000, guid: f7f7c2f0c2e950a4abe2005251e6aa8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheel_1: {fileID: 3791206461633748993}
-  wheel_2: {fileID: 4041419760046373008}
-  wheel_3: {fileID: 7105795761691575174}
-  wheel_4: {fileID: 1976549314593716830}
-  Car_Body: {fileID: 4478926762679543307}
-  Tire_Smoke_1: {fileID: 1820815981}
-  Tire_Smoke_2: {fileID: 255155136}
-  rb: {fileID: 3668518316660235096}
-  Acceleration: 50
+  wheel_1: {fileID: 0}
+  wheel_2: {fileID: 0}
+  wheel_3: {fileID: 0}
+  wheel_4: {fileID: 0}
+  Car_Body: {fileID: 0}
+  Tire_Smoke_1: {fileID: 0}
+  Tire_Smoke_2: {fileID: 0}
+  rb: {fileID: 0}
+  Acceleration: 0
   JumpForce: 10
   Boost: 20
+  Car1: {fileID: 0}
+  Car2: {fileID: 0}
+  Car3: {fileID: 0}
 --- !u!1 &4478926762679543307
 GameObject:
   m_ObjectHideFlags: 0

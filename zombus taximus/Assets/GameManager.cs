@@ -8,34 +8,25 @@ public class GameManager : MonoBehaviour
 {
 
     public int score = 0;
+    public int customerC = 0;
     public Text timerText, scoreTxt;
-    public Text highScore;
+    public Text highscore;
+    public Text customer;
 
 
-
-    // Use this for initialization
-    void Start()
-    {
-
-        int highscore = PlayerPrefs.GetInt("highscore");
-        print(PlayerPrefs.GetInt("highscore") + "score ");
-        if (highscore < score)
-        {
-            // saves the value of "score" into the highscore field
-            PlayerPrefs.SetInt("highscore", score);
-
-        }
-    }
 
         private void Update()
     {
-        scoreTxt.text = "highScore"  +score;
+        scoreTxt.text = "highScore"  + score;
+        customer.text = "customer" + customerC;
     }
 
     public void GameOver ()
 
     {
         PlayerPrefs.SetInt("highscore", score);
-            SceneManager.LoadScene("GameOver");
+        PlayerPrefs.SetInt("customer", customerC);
+        SceneManager.LoadScene("GameOver");
     }
 }
+

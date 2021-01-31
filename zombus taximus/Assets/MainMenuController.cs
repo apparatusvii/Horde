@@ -9,10 +9,12 @@ public class MainMenuController : MonoBehaviour
     public GameObject mainMenu;
     public GameObject optionsMenu;
     public Text highscore;
+    public Text customer;
 
     public void Start()
     {
-        highscore.text = "highscore" + PlayerPrefs.GetInt("highscore");
+        highscore.text = " Fare: " + PlayerPrefs.GetInt("highscore");
+        customer.text = " Total customers: " + PlayerPrefs.GetInt("customer");
     }
 
 

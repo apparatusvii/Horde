@@ -8,9 +8,12 @@ public class deliveryTimer : MonoBehaviour
 {
     public Text timerText, scoreTxt;
     public Text highScore;
+    public Text customer;
     public float startTime, currentTime;
     public bool timeIsTicking, deliveryCounted, pickedUp;
-    public float score, customerCount;
+    public float score;
+    public float customerC;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +23,7 @@ public class deliveryTimer : MonoBehaviour
         deliveryCounted = false;
         pickedUp = false;
         score = 0;
-        customerCount = 0;
+        customerC = 0;
     }
 
     // Update is called once per frame
@@ -58,7 +61,7 @@ public class deliveryTimer : MonoBehaviour
             {
                 pickedUp = false;
                 deliveryCounted = true;
-                customerCount++;     ////////////////////if you want to record how many customers here 
+                customerC++;     ////////////////////if you want to record how many customers here 
 
                 print("delivered");
                 StartCoroutine(stopTheCount());

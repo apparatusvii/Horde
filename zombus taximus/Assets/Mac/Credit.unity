@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 1899657618}
   - component: {fileID: 1899657617}
   m_Layer: 0
-  m_Name: AudioSource
+  m_Name: AudioSource2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1899657616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b7f449653a8eb74092be9345e1beb31, type: 3}
+  m_Script: {fileID: 11500000, guid: b8e02ac2d029f974c92c1039e9497724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &1899657618
@@ -987,11 +987,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2126643608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 351a4183014fec941bac947f468a6c71, type: 3}
+  m_Script: {fileID: 11500000, guid: 314e31124b4831b498be99d2db6d013f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenu: {fileID: 0}
   optionsMenu: {fileID: 0}
+  highscore: {fileID: 0}
+  customer: {fileID: 0}
 --- !u!114 &2126643610
 MonoBehaviour:
   m_ObjectHideFlags: 0
