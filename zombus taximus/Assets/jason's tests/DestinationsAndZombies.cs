@@ -7,8 +7,12 @@ public class DestinationsAndZombies : MonoBehaviour
     public deliveryTimer deliveryScript;
     public GameObject playerCamera;
     public SpriteRenderer sprite;
-   
+    public AudioSource Pickup;
 
+    void Start()
+    {
+      Pickup = GetComponent<AudioSource>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -26,9 +30,17 @@ public class DestinationsAndZombies : MonoBehaviour
             //sprite dissapears when picked up
             if (deliveryScript.pickedUp == true)
             {
-                sprite.enabled = false;
+                Pickup.Play();
+                StartCoroutine (DisableSprite());
             }
         }
     }
+
+    IEnumerator DisableSprite()
+    {
+      yield return new WaitForEndOfFrame();
+      sprite.enabled = false;
+    }
+
 
 }
