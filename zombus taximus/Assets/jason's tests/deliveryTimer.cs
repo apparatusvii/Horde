@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class deliveryTimer : MonoBehaviour
 {
-    public Text timerText, scoreTxt;
+    public Text timerText, scoreTxt, finalScoreTxt, finalCountTxt;
     public Text highScore;
     public Text customer;
     public float startTime, currentTime;
@@ -14,6 +14,8 @@ public class deliveryTimer : MonoBehaviour
     public float score;
     public float customerC;
     public AudioSource PickupSound;
+    public GameObject endStuff;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,7 @@ public class deliveryTimer : MonoBehaviour
         pickedUp = false;
         score = 0;
         customerC = 0;
+        endStuff.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,7 +37,8 @@ public class deliveryTimer : MonoBehaviour
 
         timerText.text = currentTime.ToString("0.0");
         scoreTxt.text = ("Score: ") + (score.ToString("0"));
-
+        finalScoreTxt.text = ("Score: ") + (score.ToString("0"));
+        finalCountTxt.text=(customerC.ToString("0") +(" Customers Served"));
         //if the countdown has been told to start, it will count down from the start time,
         //otherwise it will stay at the start time
         if (timeIsTicking == true)
@@ -44,8 +48,9 @@ public class deliveryTimer : MonoBehaviour
 
         if (currentTime <= 0)
         {
-            SceneManager.LoadScene("EndGame");
+            endStuff.SetActive(true);
             // else currentTime = startTime;
+            //load ui here
         }
     }
 
