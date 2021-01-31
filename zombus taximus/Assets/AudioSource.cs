@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioSource : MonoBehaviour
+public class AudioSource2 : MonoBehaviour
 {
-    private static AudioSource _instance;
+    private static AudioSource2 _instance;
 
-    public static AudioSource instance
+    public static AudioSource2 instance
     {
         get
         {
             if (_instance == null)
             {
-                _instance = GameObject.FindObjectOfType<AudioSource>();
+                _instance = GameObject.FindObjectOfType<AudioSource2>();
 
                 //Tell unity not to destroy this object when loading a new scene!
                 DontDestroyOnLoad(_instance.gameObject);
