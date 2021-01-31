@@ -13,7 +13,7 @@ public class deliveryTimer : MonoBehaviour
     public bool timeIsTicking, deliveryCounted, pickedUp;
     public float score;
     public float customerC;
-
+    public AudioSource PickupSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,13 +55,14 @@ public class deliveryTimer : MonoBehaviour
             {
                 timeIsTicking = true;
                 pickedUp = true;
+                PickupSound.Play();
             }
 
             if (other.gameObject.CompareTag("destination") && pickedUp == true)//when you reach the destination, the delivery gets counted
             {
                 pickedUp = false;
                 deliveryCounted = true;
-                customerC++;     ////////////////////if you want to record how many customers here 
+                customerC++;     ////////////////////if you want to record how many customers here
 
                 print("delivered");
                 StartCoroutine(stopTheCount());
@@ -79,5 +80,3 @@ public class deliveryTimer : MonoBehaviour
         }
 
     }
-
-

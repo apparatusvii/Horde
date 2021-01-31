@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 377.3318, g: 159.0542, b: 202.85571, a: 1}
+  m_IndirectSpecularColor: {r: 197.81372, g: 69.54526, b: 91.38432, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -333,6 +333,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &9152240
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2705,6 +2707,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &151175864
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4089,6 +4093,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!65 &247163590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11427,6 +11433,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &457017501
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15792,6 +15800,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &701149317
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17094,6 +17104,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &802781967
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17365,6 +17377,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &807444567
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17726,6 +17740,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!65 &831129823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19996,6 +20012,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &976976370
 AudioSource:
   m_ObjectHideFlags: 0
@@ -20981,6 +20999,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1050950746
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21139,6 +21159,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1061680283
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22622,6 +22644,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1145326670
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23210,6 +23234,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1177674461
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23464,6 +23490,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1222892482
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24705,6 +24733,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1302652610
 AudioSource:
   m_ObjectHideFlags: 0
@@ -26106,6 +26136,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1379682143
 AudioSource:
   m_ObjectHideFlags: 0
@@ -26486,6 +26518,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1405167531
 AudioSource:
   m_ObjectHideFlags: 0
@@ -28571,6 +28605,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1538194267
 AudioSource:
   m_ObjectHideFlags: 0
@@ -29127,6 +29163,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1561746895
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30196,6 +30234,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1609649929
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30896,6 +30936,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1639755983
 AudioSource:
   m_ObjectHideFlags: 0
@@ -32015,6 +32057,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!65 &1710689121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33973,6 +34017,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1801608390
 AudioSource:
   m_ObjectHideFlags: 0
@@ -40684,6 +40730,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &1915615278
 AudioSource:
   m_ObjectHideFlags: 0
@@ -46831,6 +46879,8 @@ MonoBehaviour:
   deliveryScript: {fileID: 4478926762679543308}
   playerCamera: {fileID: 0}
   sprite: {fileID: 0}
+  Pickup: {fileID: 0}
+  PickupSound: {fileID: 0}
 --- !u!82 &2147361339
 AudioSource:
   m_ObjectHideFlags: 0
@@ -48332,7 +48382,6 @@ GameObject:
   - component: {fileID: 4478926762679543311}
   - component: {fileID: 4478926762679543310}
   - component: {fileID: 4478926762679543312}
-  - component: {fileID: 4478926762679543313}
   m_Layer: 0
   m_Name: grand_marcus
   m_TagString: Untagged
@@ -48363,7 +48412,6 @@ MonoBehaviour:
   pickedUp: 0
   score: 0
   customerC: 0
-  PickupSound: {fileID: 4478926762679543313}
 --- !u!114 &4478926762679543309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48440,7 +48488,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b9cd800459677cf479a43f3bd2b02aca, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -48536,7 +48584,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: be455dbc94ba3ed4788ec2ca9b94cbbf, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1.18
   Loop: 1
@@ -48632,103 +48680,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1db1a1c2a81c5c34dba5f574ca7cd3cd, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &4478926762679543313
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4478926762679543307}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c49c72a0e0dc76140a37f08228cfc2ae, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
