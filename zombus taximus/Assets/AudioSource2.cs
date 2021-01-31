@@ -26,7 +26,7 @@ public class AudioSource2 : MonoBehaviour
     {
         if (_instance == null)
         {
-            Debug.Log("its alive");
+            Debug.Log("audio is live");
             //If I am the first instance, make me the Singleton
             _instance = this;
             DontDestroyOnLoad(this);
