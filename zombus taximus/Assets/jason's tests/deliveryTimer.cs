@@ -7,7 +7,7 @@ public class deliveryTimer : MonoBehaviour
 {
     public Text timerText, scoreTxt;
     public float startTime, currentTime;
-    public bool timeIsTicking, deliveryCounted;
+    public bool timeIsTicking, deliveryCounted, pickedUp;
     public float score;
     // Start is called before the first frame update
     void Start()
@@ -16,6 +16,7 @@ public class deliveryTimer : MonoBehaviour
         startTime = 30;
         timeIsTicking = false;
         deliveryCounted = false;
+        pickedUp = false;
         score = 0;
     }
 
@@ -41,17 +42,17 @@ public class deliveryTimer : MonoBehaviour
     {
         if (other.gameObject.CompareTag("pickup")) //picking up a zombie tells the countdown to start
         {
-            timeIsTicking = true;            
+            timeIsTicking = true;
+            pickedUp = true;          
         }
 
-        if (other.gameObject.CompareTag("destination"))//when you reach the destination, the timer stops counting down
+        if (other.gameObject.CompareTag("destination"))//when you reach the destination, the delivery gets counted
         {
-            //timeIsTicking = false;
+            pickedUp = false;
             deliveryCounted = true;
-            print("delivered");
-            print("AAAAAAAAAAAAAAAAAAAAAAAA");
+            print("delivered");            
             StartCoroutine(stopTheCount());
-            score = score + 100 * currentTime;
+            score = score + 10 * currentTime;
             currentTime = currentTime + 15;
         }
     }
