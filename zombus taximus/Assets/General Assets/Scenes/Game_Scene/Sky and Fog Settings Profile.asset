@@ -243,7 +243,7 @@ MonoBehaviour:
     max: 10
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.094147086, g: 0.08558822, b: 0.582, a: 1}
+    m_Value: {r: 0.4528302, g: 0.20249198, b: 0.29983616, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
@@ -287,13 +287,13 @@ MonoBehaviour:
     max: 1
   horizonTint:
     m_OverrideState: 1
-    m_Value: {r: 0.028224882, g: 0, b: 0.1981132, a: 1}
+    m_Value: {r: 0.21698111, g: 0, b: 0.015467139, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
   zenithTint:
     m_OverrideState: 1
-    m_Value: {r: 0.18796723, g: 0.2143123, b: 0.754717, a: 1}
+    m_Value: {r: 0.1882353, g: 0.4369255, b: 0.7529412, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
@@ -386,9 +386,9 @@ MonoBehaviour:
         m_PostInfinity: 2
         m_RotationOrder: 4
   red:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 2
+      <length>k__BackingField: 4
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -400,6 +400,24 @@ MonoBehaviour:
           value: 0
           inSlope: 1
           outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.20601638
+          value: 0.36363637
+          inSlope: 1.4326097
+          outSlope: 1.4326097
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.59799445
+          value: 0.7474748
+          inSlope: 0.7072858
+          outSlope: 0.7072858
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -548,7 +566,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-  m_SelectedCurve: 3
+  m_SelectedCurve: 1
 --- !u!114 &-6651941102329348145
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -907,7 +925,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   lift:
     m_OverrideState: 1
-    m_Value: {x: 0.8876498, y: 0.91573685, z: 1, w: -0.04683841}
+    m_Value: {x: 0.887374, y: 0.8354701, z: 1, w: -0.04683841}
   gamma:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1, z: 1, w: 0}
