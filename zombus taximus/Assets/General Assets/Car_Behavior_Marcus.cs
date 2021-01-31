@@ -20,11 +20,13 @@ public class Car_Behavior_Marcus : MonoBehaviour
     public float Boost = 20;
     private float DriftBoost;
     private float tTime = 20;
+    public AudioSource Car1;
+    public AudioSource Car2;
+    public AudioSource Car3;
 
     void start()
     {
-      Tire_Smoke_1.Pause();
-      Tire_Smoke_2.Pause();
+      Car1.Play();
     }
 
     void wheelturn()
@@ -33,23 +35,27 @@ public class Car_Behavior_Marcus : MonoBehaviour
       wheel_2.transform.Rotate(-Speed,0,0);
       wheel_3.transform.Rotate(-Speed,0,0);
       wheel_4.transform.Rotate(-Speed,0,0);
-
+      Car1.Play();
 
     }
     void turnL()
     {
     rb.transform.Rotate(0,5 * -1,0);
     rb.AddForce(0,-20,0, ForceMode.Impulse);
+    Car3.Play();
     }
 
     void turnR()
     {
       rb.transform.Rotate(0,5,0);
       rb.AddForce(0,-20,0, ForceMode.Impulse);
+      Car3.Play();
     }
     void Brake()
     {
       Speed = 0;
+      Car1.Pause();
+      Car2.Play();
     }
 
     void FixedUpdate()
@@ -58,6 +64,7 @@ public class Car_Behavior_Marcus : MonoBehaviour
       if(Input.GetKey("s"))
       {
         Brake();
+
       }
       if(Input.GetKey("d"))
       {
