@@ -15,15 +15,15 @@ EditorBuildSettings:
     path: Assets/General Assets/Scenes/Game_Scene GM.unity
     guid: 165d2168c4ab3e642856929dd93b4e63
   - enabled: 1
-    path: Assets/Mac/Credit.unity
-    guid: 949af0f4c970d40419da9b64fb705234
-  - enabled: 0
-    path: Assets/Mac/EndGame.unity
-    guid: 517612c4508b1b04e98786a4a2442c47
-  - enabled: 1
     path: Assets/General Assets/Scenes/Game_Scene E20.unity
     guid: 21f7dbc1f3a329942ab53dae4f405ffa
   - enabled: 1
     path: Assets/General Assets/Scenes/Game_Scene KEI.unity
     guid: ab058b77e35cde44cb02baf4f2696280
+  - enabled: 1
+    path: Assets/Mac/Credit.unity
+    guid: 949af0f4c970d40419da9b64fb705234
+  - enabled: 0
+    path: Assets/Mac/EndGame.unity
+    guid: 517612c4508b1b04e98786a4a2442c47
   m_configObjects: {}
